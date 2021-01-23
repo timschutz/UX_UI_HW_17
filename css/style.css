@@ -12,6 +12,15 @@ li{
     color:#353F67;
     width: 200px;
 }
+.italic{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    color:#353F67;
+    margin-top: 50px;
+}
 h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 84px;
@@ -35,6 +44,14 @@ h5{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color:#353F67;
+}
+.h5survey{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 50px 20px 50px;
+    vertical-align: middle;
     color:#353F67;
 }
 h6{
@@ -97,22 +114,55 @@ h6{
     height: auto;
 }
 .user_insight{
+    margin-top: 250px;
     padding-left: 220px; 
     padding-right: 220px;
-    /* KILL HEIGHT AFTER CONTENT GOES IN */
-    height: 600px; 
+    height: auto; 
     display: flex;
 }
 .user_insight_left{
+    text-align: center;
+    padding: 70px 60px 0px 60px;
     height: auto;
-    width: 50%;
+    width: 65%;
     background-image: url(../assets_jarvis/mag.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color:#353f67 ;
 }
+.user_insight_left_bottom{
+    padding-top: 35px;
+    padding-bottom: 180px;
+}
 .user_insight_right{
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 10px;
     height: auto;
     flex-grow: 1;
     background-color:#DAE0EB ;
+}
+.user_insight_right_top{
+    height: 60px;
+}
+.user_insight_num{
+    display: inline;
+}
+.user_insight_num img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.surveys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+.survey{
+    width: 290px;
+    height: 180px;
+    background-color: #ECEFEE ;
 }
