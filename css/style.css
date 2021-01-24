@@ -79,14 +79,15 @@ h6{
     background: linear-gradient(to bottom,  #fd4500 0%,#fd4500 75%,white 75%,white 100%);
 }
 .hero.text{
-    padding-top: 60px;
+    text-align: center;
+    padding-top: 40px;
 }
 .hero.image{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 .hero img{
-    max-width: 100%; 
+    max-width: 80%; 
     height: auto;
 }
 
@@ -251,7 +252,10 @@ h6{
         font-size: 16px;
     }
     .text_title{
-        width: 60%;
+        width: 80%;
+    }
+    .prob_state_cont{
+        width: 80%;
     }
 }
   @media only screen and (max-width: 930px) {
@@ -265,9 +269,6 @@ h6{
         justify-content: center;
         max-width: 200px;
     }
-    /* .screen{
-        max-width: 80%;
-    } */
 }
   @media only screen and (max-width: 1024px) {
     .user_insight_cont{
@@ -303,13 +304,7 @@ h6{
 }
 @media only screen and (max-width: 1690px) {
     .hero.text{
-        text-align: center;
         max-width: 80%;
-        padding-top: 40px;
-    }
-    .hero.image{
-        /* text-align:center; */
-        padding-top: 40px;
     }
     .hero img{
         max-width: 80%;
