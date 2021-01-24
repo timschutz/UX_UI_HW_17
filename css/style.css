@@ -72,27 +72,22 @@ h6{
 
 /* ***HERO*** */
 
-.hero_color{
-    height:460px;
-    margin-bottom: 500px;
-    background-color: #fd4500 ;
-}
 .hero_cont{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.hero{
-    width: 375px;
+    justify-content: center;
+    background: linear-gradient(to bottom,  #fd4500 0%,#fd4500 75%,white 75%,white 100%);
 }
 .hero.text{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .hero.image{
-    padding-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.hero img{
+    max-width: 100%; 
+    height: auto;
 }
 
 /* ***PROTO PERSONA*** */
@@ -227,7 +222,7 @@ h6{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 1000px;
+    max-width: 80%;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -249,24 +244,6 @@ h6{
 /* ***MEDIA QUERIES*** */
 
 @media only screen and (max-width: 780px) {
-    .hero_color{
-        height:780px;
-    }
-    .hero_cont{
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    .hero{
-        width: 100%;
-    }
-    .hero.text{
-        text-align: center;
-        padding-top: 40px;
-    }
-    .hero.image{
-        text-align:center;
-        padding-top: 40px;
-    }
     h3{
         font-size: 36px;
     }
@@ -288,6 +265,9 @@ h6{
         justify-content: center;
         max-width: 200px;
     }
+    /* .screen{
+        max-width: 80%;
+    } */
 }
   @media only screen and (max-width: 1024px) {
     .user_insight_cont{
@@ -298,7 +278,6 @@ h6{
     .user_insight_box{
         padding: 70px 60px 70px 60px;
         margin-bottom: 20px;
-        /* width: 375px; */
         height: auto;
     }
     .user_insight_box.left{
@@ -320,5 +299,19 @@ h6{
         padding-top: 30px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media only screen and (max-width: 1690px) {
+    .hero.text{
+        text-align: center;
+        max-width: 80%;
+        padding-top: 40px;
+    }
+    .hero.image{
+        /* text-align:center; */
+        padding-top: 40px;
+    }
+    .hero img{
+        max-width: 80%;
     }
 }
