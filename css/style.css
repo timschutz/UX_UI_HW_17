@@ -129,7 +129,7 @@ h6{
     margin: 350px auto;
 }
 .user_insight_box{
-    padding: 70px 60px 0px 60px;
+    padding: 40px 60px 20px 60px;
     width: 375px;
     height: auto;
 }
@@ -143,15 +143,21 @@ h6{
     background-color:#DAE0EB ;
 }
 .ui_left_bot{
-    padding-top: 15px;
+    padding-top: 60px;
     padding-bottom: 180px;
 }
-.ui_num{
-    display: inline;
+.res_question{
+    line-height: 0px;
+    background-color:#092964 ;
 }
-.ui_num img{
-    padding-right: 20px;
+.ui_num{
     float: left;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.ui_txt{
+    overflow: hidden;
+    vertical-align: top;
 }
 
 /* ***SURVEY/INTERVIEW*** */
